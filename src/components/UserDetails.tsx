@@ -17,7 +17,7 @@ const UserDetails = () => {
         UserDetails
       </h2>
       {console.log(typeof params.userId)}
-      <div style={{ minHeight: `calc(100vh - 9.12rem)` }}>
+      <div style={{ minHeight: `calc(100vh - 9rem)` }}>
         {users
           .filter((person) => person.id == id)
           .map((filteredPerson) => (
