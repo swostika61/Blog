@@ -17,7 +17,7 @@ const Posts = () => {
             <Card data={data} />
           ))}
         </div>
-      </div>
+f      </div>
     </>
   );
 };

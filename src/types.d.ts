@@ -1,6 +1,6 @@
 // POST INTERFACE
 interface IPost {
-  id: number;
+  id?: number | string;
   userId?: number;
   body?: string;
   title: string;
